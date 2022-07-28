@@ -2,13 +2,33 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>Stranger Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
+    <center><img src= "IMG/Stranger thins logo.png" width="550" height="150"></center>
+      <div class="box">
+        <h1 id="tittle">  Um pedido ǝp ɐpnɾɐ.</h1>
+        <h2 class="text">"Um grupo de garotos está reunido ao redor de
+          uma mesa desgastada em um porão sujo e empoeirado, o
+          mais velho ocupa o acento principal, ele solta
+      uma risada malefica e estampado em sua camisa esta a palavra HELLFIRE."
+        </h2> <h3 class="textwo"> Dustin e seus amigos estão dentro da masmorra de um poderoso Lich, o temido Acererak
+          e a unica forma deles se comunicarem sem serem pegos é usando a cifra de cesar. 
+          Decifre e cifre as mensagens no campo abaixo, e uma boa jornada, nobre aventureiro.</h3>
+      </div>
+  
+      <div id="container-1">
+        <label><textarea type="text" id="plaininput-1" placeholder="Escreva o texto a ser cifrado aqui."></textarea></label>
+        <button id="cifrar-btn">Cifrar</button>
+        <button id="decifrar-btn">Decifrar Texto.</button>
+        <input type="number" id="shiftinput" min="0" max="25">
+        <br>
+        <label>
+          <textarea type="text" id="encryptedinput-1" placeholder="O texto encriptado vai aparecer aqui."></textarea>
+        </label>
+      </div>
+    
     <script src="index.js" type="module"></script>
   </body>
 </html>

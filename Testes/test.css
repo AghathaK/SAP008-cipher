@@ -42,7 +42,7 @@ label{
     position: relative;
 }
 
-#container-1{
+#container-2{
     position: relative;
     top: -490px;
     left: 430px;
@@ -54,7 +54,7 @@ label{
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 }
 
-#container-1 button{
+#container-2 button{
     position: relative;
     top: 100px;
     right: 125px;
@@ -72,15 +72,15 @@ textarea{
     cursor: pointer;
 }
 
-#cifrar-btn{
+#encrypt-btn{
     transform: translate(50px, 128px) scale(2.4);
 }
 
-#decifrar-btn{
+#copytoclipboard{
     transform: translate(210px, 110px) scale(2.4);
 }
 
-#cifrar-btn, #decifrar-btn{
+#encrypt-btn, #copytoclipboard{
     border-radius: 2px;
     border: none;
     cursor: pointer;
@@ -97,8 +97,8 @@ textarea{
     cursor: pointer;
     border: 1px solid grey;
 }
-#container-1
-  666 66666666bbbbbbbbbbiiioouhçoh  display: flex;
+#container-2{
+    display: flex;
     justify-content: center;
     align-items: center;
  }

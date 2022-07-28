@@ -1,5 +1,7 @@
-const cipher = {
-  // ...
-};
+function encode(offset, string) {
+  console.log(offset, string)
+}
 
-export default cipher;
+
+
+export default encode;
