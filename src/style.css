@@ -37,16 +37,16 @@ body{
 
 label{
     font-family: sans-serif;
-    color: black;
+    color: darkred;
     transform: scale(1.5);
     position: relative;
 }
 
-#container-1{
+#container-2{
     position: relative;
     top: -490px;
     left: 430px;
-    background: black;
+    background: rgb(58, 1, 1);
     border-radius: 10px;
     padding: 10px 50px;
     width: 400px;
@@ -54,7 +54,7 @@ label{
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 }
 
-#container-1 button{
+#container-2 button{
     position: relative;
     top: 100px;
     right: 125px;
@@ -72,33 +72,33 @@ textarea{
     cursor: pointer;
 }
 
-#cifrar-btn{
+#cifrarbtn{
     transform: translate(50px, 128px) scale(2.4);
 }
 
-#decifrar-btn{
+#decifrarbtn{
     transform: translate(210px, 110px) scale(2.4);
 }
 
-#cifrar-btn, #decifrar-btn{
-    border-radius: 2px;
+#cifrarbtn, #decifrarbtn{
+    border-radius: 6px;
     border: none;
     cursor: pointer;
-    background: darkred;
+    background: rgb(58, 1, 1);
     color: white;
     font-family: sans-serif;
     font-size: 10px;
-    padding: 4px 12px;
+    padding: 4px 10px;
 }
 
-#shiftinput{
+#deslocbtn{
     transform: scale(2);
     outline: none;
     cursor: pointer;
-    border: 1px solid grey;
+    border: 1px solid black;
 }
-#container-1
-  666 66666666bbbbbbbbbbiiioouhçoh  display: flex;
+#container-2{
+    display: flex;
     justify-content: center;
     align-items: center;
  }

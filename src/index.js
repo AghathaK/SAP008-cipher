@@ -1,4 +1,15 @@
-import encode from './cipher.js';
+import cipher from './cipher.js';
 
-console.log(encode(4, 'palavra'));
+const encodebtn = document.getElementById("cifrarbtn");
+const decodebtn = document.getElementById("decifrarbtn");
+
+encodebtn.addEventListener("click", cipher.encode())
+ 
+
+    
+
+
+
+
+
 

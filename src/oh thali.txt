@@ -1,0 +1,15 @@
+addEventListener
+document.getElementById(“meu_botao”)
+encodebtn.addEventListener("click", cipher.encode())
+let palavra = document.getElementById(“mensagem”)
+let offset = document.getElementById(“offset”)
+botao.addEventListener(“click”, cipher.encode(palavra.value, offset.value))
+innerHTML
+
+
+let inputs = [boxtwo,boxtext];
+inputs.forEach( input => {
+    input.oninput = () => {
+        input.value = input.value.toUpperCase() //retorna todas as palavras em letra maiscula.
+    }
+})

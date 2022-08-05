@@ -1,0 +1,56 @@
+CONSOLE.LOG exibe no console do inspecionar as funções do código.
+
+ARRAY é uma variavel na qual dentro dela tem mais de um valor. Array é lido como objeto.
+Exemplo: let lista = ["ovo, farinha, leite, margarina"]
+
+OBJETO é como se fosse um array, mas além da lista eu posso ter uma referencia. Objeto se abre com {}
+Exemplo: let receitadebolo = { massa: "leite, ovo, farinha", recheio: "brigadeiro, ninho", quantfatias: 15}
+
+COMENTÁRIOS podem ser feitos utilizando // no fim do codigo, para abrir um comentário e fechar eu utilizo /*
+Exemplo: //comentario sem ser fechado || /*comentario aberto e sendo fechado*/
+
+VARIAVEIS armazenan coisas para que eu posso pega-las e utilizar no código depois.
+Exemplo: let nome = "Aghatha" || let idade = 24
+
+TYPEOF mostra qual o tipo da variavel podendo ser string, boolean etc.
+Exemplo: typeof nome = string.
+
+PONTO E VIRGULA é usado quando você vai usar mais de um código na mesma linha.
+Exemplo: let nome = "Aghatha"; let idade = 24.
+
+LET me permite colocar qualquer valor dentro da variavel e me permite alterar ela futuramente.
+Exemplo: let nome: "João", nome: "Aghatha" (ao dar console.log vai mostrar o novo nome definido)
+
+CONST é usado quando a variavel não vai ser mudada ou atribuido um novo valor.
+Exemplo: cons nome: "Aghatha" || nome: "João" (aqui a mudança não iria funcionar, o js não vai reconhecer ja que a cons não pode ser modificado)
+
+OPERAÇÕES é possivel faazer operações matematicas definindo um valor para a variavel e realizando a operação depois;
+Exemplo: let x = 3; x = x + 5; console.log (x) [mostra o resultado da operação, que seria 8]
++ = soma || - = subtração || * = multiplicação || / = divisão somente numeros.
+Com strings acontece de forma diferente, ele junta os numeros ao inves de fazer a soma;
+Exemplo: let x = "2"; x = x + 8; console.log (x) [resultado vai ser 28]
+let nome = "Bonieky"; let sobrenome = "Lacerda" (para colocar espaço numa frase com concatenação basta dar um
+espaço depois de cada palavra dentro da string ou como no exemplo abaixo.)
+let nomecompleto = nome + " " + sobrenome; 
+CONCATENAÇÃO é a junção de coisas como o exemplo acima.
+
+TEMPLATE STRING é uma espécie de string turbinada que me permite realizar operação dentro dela, nela é usada 
+a crase ``. Posso fazer a concatenação dentro dela. 
+Exemplo: let nomecompleto = `${nome} ${sobrenome} da   Silva` console.log ("Nome: " + nomecompleto) mostra > Nome: Bonieky Lacerdada Silva
+Dentro desse simbolo ${} eu posso executar um código javascript. Nome se torna uma variavel ao inves de string.
+Ela puxa a variavel que você quer dentro de uma string.
+let idade = 90;
+let idadestring = `${idade} anos` mostra > 90 anos;
+let idadestring = `${idade+2} anos` mostra > 92 anos;
+let idadestring = `${idade + bla} anos` mostra > 92bla anos;
+
+CONDICIONAIS é o que vai girar o sistema que você criar, tipo, se você apertar em tal botão acontece isso, 
+basicamente realiza ações.
+
+IF significa "se", tipo se determinada coisa for feita acontece isso, se não acontece aquilo.
+Exemplo: let idade = 24; if (idade > 18); {console.log ("Você é maior de idade)}; else { console;log ("Você é menor de idade)}
+ELSE só é executado quando a condição do IF não for executada.
+
+
+
+
