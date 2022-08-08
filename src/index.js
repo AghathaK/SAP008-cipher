@@ -1,12 +1,25 @@
 import cipher from './cipher.js';
 
-const encodebtn = document.getElementById("cifrarbtn");
-const decodebtn = document.getElementById("decifrarbtn");
+    const encodeBTN = document.getElementById("cifrarBTN")
+    const decodeBTN = document.getElementById("decifrarBTN")
 
-encodebtn.addEventListener("click", cipher.encode())
- 
+encodeBTN.addEventListener("click", function (event) {
+    const boxEncode = document.getElementById("boxText").value.toUpperCase()
+    const desloc = parseInt(document.getElementById("deslocBTN").value);
+    const result = cipher.encode(desloc, boxEncode);
+    document.getElementById("boxText2").value = result;
+});
 
-    
+decodeBTN.addEventListener("click", function (event){
+    const boxDecode = document.getElementById("boxText").value.toUpperCase()
+    const desloc = parseInt(document.getElementById("deslocBTN").value);
+    const result2 = cipher.decode(desloc, boxDecode);
+    document.getElementById("boxText2").value = result2;
+});
+
+
+
+
 
 
 

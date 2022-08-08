@@ -1,0 +1,8 @@
+COMANDOS PARA DAR COMMIT
+Abrir a pasta do projeto.
+Usar o comando git add .
+Usar o comando git commit -m "nome da atualização".
+Usar o comando git push origin main.
+
+alt+shift+f para fazer indentação.
+document.getElementById("boxText").value = result

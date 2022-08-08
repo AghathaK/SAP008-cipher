@@ -45,11 +45,21 @@ let idadestring = `${idade+2} anos` mostra > 92 anos;
 let idadestring = `${idade + bla} anos` mostra > 92bla anos;
 
 CONDICIONAIS é o que vai girar o sistema que você criar, tipo, se você apertar em tal botão acontece isso, 
-basicamente realiza ações.
+basicamente realiza ações. Dentro dos () vai a condicional vulgo condição/açção que tem que ser realizada.
 
 IF significa "se", tipo se determinada coisa for feita acontece isso, se não acontece aquilo.
 Exemplo: let idade = 24; if (idade > 18); {console.log ("Você é maior de idade)}; else { console;log ("Você é menor de idade)}
-ELSE só é executado quando a condição do IF não for executada.
+ELSE só é executado quando a condição do IF não for satisfeita.
+Quando eu quero verificar se algo é igual dentro de um IF eu uso ==.
+== aceita tanto number quanto string, porém um numero em string faz concatenação com outro.
+=== é mais restrito, se eu colocar um number ele vai puxar so um number. 
+Exemplo: let idade = 14;
+if (idade == 17) { //se eu usar um >=, caso a idade do usuario for mais ou igual a 17 vai dar true.//
+    console.log("A idade é igual")
+} else {
+    console.log("A idade não é igual")
+}
+SIMBOLOS < menor | > maior | == igual | >= maior e igual | <= menor e igual | != diferente |
 
 
 

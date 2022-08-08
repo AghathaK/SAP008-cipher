@@ -1,5 +1,5 @@
 body{
-    background-image: url(../src/IMG/Background.jpg);
+    background-image: url("./IMG/Background.jpg");
     background-repeat: no-repeat;
     background-size: cover; 
 }
@@ -72,15 +72,15 @@ textarea{
     cursor: pointer;
 }
 
-#cifrarbtn{
+#cifrarBTN{
     transform: translate(50px, 128px) scale(2.4);
 }
 
-#decifrarbtn{
+#decifrarBTN{
     transform: translate(210px, 110px) scale(2.4);
 }
 
-#cifrarbtn, #decifrarbtn{
+#cifrarBTN, #decifrarBTN{
     border-radius: 6px;
     border: none;
     cursor: pointer;
@@ -91,7 +91,7 @@ textarea{
     padding: 4px 10px;
 }
 
-#deslocbtn{
+#deslocBTN{
     transform: scale(2);
     outline: none;
     cursor: pointer;
