@@ -1,0 +1,105 @@
+body{
+    background-image: url("./IMG/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.box{
+    width: 700px;
+    height: 700px;
+    margin: 100px auto;
+    background-color: black;
+    position: relative;
+}
+
+#tittle{
+    color: red;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    letter-spacing: 4px;
+   
+}
+
+.text{
+    font-size: 1.3rem;
+    color: darkred;
+    text-align: center;
+    font-style: italic;  
+}
+
+.textwo{
+    font-size: 1.3rem;
+    color: darkred;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+label{
+    font-family: sans-serif;
+    color: darkred;
+    transform: scale(1.5);
+    position: relative;
+}
+
+#container-2{
+    position: relative;
+    top: -490px;
+    left: 430px;
+    background: rgb(58, 1, 1);
+    border-radius: 10px;
+    padding: 10px 50px;
+    width: 400px;
+    flex-direction: column;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+#container-2 button{
+    position: relative;
+    top: 100px;
+    right: 125px;
+}
+
+textarea{
+    background: transparent;
+    outline: none;
+    border-radius: 5px;
+    text-align: center;
+    transform: scale(1.5);
+    margin-bottom: 70px;
+    position: relative;
+    top: 40px;
+    cursor: pointer;
+}
+
+#cifrarBTN{
+    transform: translate(50px, 128px) scale(2.4);
+}
+
+#decifrarBTN{
+    transform: translate(210px, 110px) scale(2.4);
+}
+
+#cifrarBTN, #decifrarBTN{
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    background: rgb(58, 1, 1);
+    color: white;
+    font-family: sans-serif;
+    font-size: 10px;
+    padding: 4px 10px;
+}
+
+#deslocBTN{
+    transform: scale(2);
+    outline: none;
+    cursor: pointer;
+    border: 1px solid black;
+}
+#container-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
